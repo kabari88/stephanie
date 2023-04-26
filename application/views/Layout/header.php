@@ -153,15 +153,15 @@
 							  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US <span class="caret"></span></a>
 							  <ul class="dropdown-menu">
 								<li><a href="about-company.html">OUR COMPANY</a></li>
-								<li><a href="about-history.html">COMPANY HISTORY</a></li>
+								<li><a href="<?= base_url('about-history') ?>">COMPANY HISTORY</a></li>
 								<li><a href="about-team.html">OUR TEAM</a></li>
-								<li><a href="about-partners.html">OUR PARTNERS</a></li>
+								<li><a href="<?= base_url('about-partners') ?>">OUR PARTNERS</a></li>
 							  </ul>
 							</li>
 							<li class="dropdown">
 							  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICES <span class="caret"></span></a>
 							  <ul class="dropdown-menu">
-								<li><a href="services.html">SERVICES 1</a></li>
+								<li><a href="<?= base_url('service') ?>">SERVICES 1</a></li>
 								<li><a href="services-2.html">SERVICES 2</a></li>
 								<li><a href="services-detail.html">SERVICES DETAIL</a></li>
 							  </ul>
@@ -193,7 +193,7 @@
 							<li class="dropdown">
 							  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT <span class="caret"></span></a>
 							  <ul class="dropdown-menu">
-								<li><a href="contact-2.html">CONTACT US</a></li>
+								<li><a href="<?= base_url('contact') ?>">CONTACT US</a></li>
 								<li><a href="contact-quote.html">GET A QUOTE</a></li>
 							  </ul>
 							</li>

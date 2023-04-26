@@ -28,10 +28,27 @@ class Welcome extends CI_Controller {
 
 
 	public function about(){
-		$this->load->view('about');
+		$this->load->view('Layout/header');
+		$this->load->view('about-history');
+		$this->load->view('Layout/footer');
 	}
 
 	public function contact(){
+		$this->load->view('Layout/header');
 		$this->load->view('contact');
+		$this->load->view('Layout/footer');
+	}
+
+
+	public function service(){
+		$this->load->view('Layout/header');
+		$this->load->view('service');
+		$this->load->view('Layout/footer');
+	}
+
+	public function about_partners(){
+		$this->load->view('Layout/header');
+		$this->load->view('about-partners');
+		$this->load->view('Layout/footer');
 	}
 }
